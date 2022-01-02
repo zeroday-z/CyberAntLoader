@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{a9695745-c439-4acc-81b1-5c36f8b434d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{6cd4550f-57b9-4e67-93ea-c50e7e160389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{cba38fdc-d3f0-4d79-912e-2a3ca2db764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{f22c3326-6a1a-41d6-9185-5153a28031c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth.gg">
+      <UniqueIdentifier>{1c0cec77-87d1-458b-9c93-fcad3f1ab327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="anti-meme">
+      <UniqueIdentifier>{e0b49f13-f543-454d-8f5d-5e1cdde0327c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdmapper">
+      <UniqueIdentifier>{6cd07e3b-1e65-44e7-8646-17491053776a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\shellcode.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\utilit.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="define\stdafx.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\injector.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\utils.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\defines.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>anti-meme</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.hpp">
+      <Filter>anti-meme</Filter>
+    </ClInclude>
+    <ClInclude Include="api\xor.h">
+      <Filter>anti-meme</Filter>
+    </ClInclude>
+    <ClInclude Include="anti_opcode.h">
+      <Filter>anti-meme</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatMeme.h" />
+    <ClInclude Include="intel_driver.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver_resource.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_executable.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="service.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver\driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="authgg\authgg.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\crypto.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\hwid.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\lw_http.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\md5.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\md5wrapper.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\print.cpp">
+      <Filter>auth.gg</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>anti-meme</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_driver.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="portable_executable.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
