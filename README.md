@@ -4,7 +4,7 @@ CyberVal is a paste of a internal Valorant Cheat which has been used by several 
 This is the Injector for my other repo.
 
 ## Information
-This code is absolute trash, and likely will need some fixxing. 
+This code is absolute trash, and likely will need some fixxing. (its shit)
 
 ## Installation
 
